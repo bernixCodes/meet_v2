@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meet Landing Page</title>
+    <link href="/dist/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="flex items-center justify-center pt-2 pb-5">
+      <img src="./assets/logo.svg" alt="logo" />
+    </header>
+
+    <!-- hero section -->
+    <section class="relative flex justify-between lg:gap-5 md:gap-0">
+      <!-- left section -->
+      <div class="-ml-9">
+        <img src="./assets/desktop/image-hero-left.png" />
+      </div>
+
+      <!-- middle section -->
+      <div
+        class="lg:relative lg:top-1 md:absolute sm:absolute md:top-72 md:pt-10 sm:top-48 sm:pt-3 flex flex-col items-center justify-center gap-y-5 px-4"
+      >
+        <h1
+          class="text-dark sm:max-w-md lg:max-w-md md:w-full font-extrabold md:text-6xl sm:text-4xl text-center"
+        >
+          Group Chat for Everyone
+        </h1>
+        <p class="text-light-gray max-w-2xl text-center text-xl">
+          Meet makes it easy to connect with others face-to-face virtually and
+          collaborate across any device.
+        </p>
+        <div
+          class="flex md:flex-row items-center justify-center gap-5 sm:flex-col"
+        >
+          <button
+            class="bg-c-green hover:bg-opacity-75 text-white py-3 px-9 rounded-full font-semibold"
+          >
+            Download<span class="text-c-green-light ml-2">v1.3</span>
+          </button>
+          <button
+            class="bg-c-purple text-white py-3 px-9 rounded-full font-semibold hover:bg-c-purple-light"
+          >
+            What is it?
+          </button>
+        </div>
+      </div>
+
+      <!-- right section -->
+      <div class="-mr-9 md:pt-7">
+        <img src="./assets/desktop/image-hero-right.png" />
+      </div>
+    </section>
+
+    <!-- divider -->
+    <div class="relative md:top-72 lg:top-4 top-96">
+      <div class="flex flex-col items-center">
+        <div class="w-0.5 h-20 bg-light-gray"></div>
+        <div
+          class="font-bold text-light-gray w-14 h-14 rounded-full border border-light-gray flex items-center justify-center"
+        >
+          01
+        </div>
+      </div>
+    </div>
+
+    <!-- images -->
+    <div
+      class="flex items-center justify-center relative lg:top-12 md:-bottom-80 -bottom-96 sm:pt-16 w-full"
+    >
+      <div
+        class="flex lg:gap-3 md:gap-5 sm:gap-y-10 sm:flex-wrap items-center sm:justify-around"
+      >
+        <img
+          class="object-contain lg:w-60 md:w-40 w-36 rounded"
+          src="./assets/desktop/image-woman-in-videocall.jpg"
+        />
+        <img
+          class="object-contain lg:w-60 md:w-40 w-36 rounded"
+          src="./assets/desktop/image-women-videochatting.jpg"
+        />
+        <img
+          class="object-contain lg:w-60 md:w-40 w-36 rounded"
+          src="./assets/desktop/image-men-in-meeting.jpg"
+        />
+        <img
+          class="object-contain lg:w-60 md:w-40 w-36 rounded"
+          src="./assets/desktop/image-man-texting.jpg"
+        />
+      </div>
+    </div>
+  </body>
+</html>
